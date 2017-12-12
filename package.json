@@ -1,22 +1,12 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-quick-start-mono-repo",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "devDependencies": {
-    "electron": "~1.7.8"
-  }
+  "main": "index.js",
+  "repository": "git@github.com:martijnthe/electron-quick-start.git",
+  "author": "Martijn The <martijn.the@intel.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
